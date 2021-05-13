@@ -1,0 +1,35 @@
+{
+    "posts": [
+      { "id": 1,
+        "title": "Head phone",
+        "author": "typicode",
+        "price": "200",
+        "rating": 4,
+        "vender's_name": "seller-1",
+        "warranty": "2",
+        "is_available": "true"
+      },
+      { "id": 2,
+        "title": "pen",
+        "author": "typicode",
+        "price": "200",
+        "rating": 4,
+        "vender's_name": "seller-2",
+        "warranty": "2",
+        "is_available": "true"
+      },
+      { "id": 3,
+        "title": "book",
+        "author": "typicode",
+        "price": "200",
+        "rating": 4,
+        "vender's_name": "seller-1",
+        "warranty": "2",
+        "is_available": "true"
+      }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" }
+  } 
