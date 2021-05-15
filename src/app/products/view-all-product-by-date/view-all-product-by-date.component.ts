@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-view-all-product-by-date',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ViewAllProductByDateComponent implements OnInit {
 
-  constructor() { }
+  constructor(private activatedRoute: ActivatedRoute) { }
+
+  searchDate = '';
 
   ngOnInit(): void {
+    this.activatedRoute.queryParams.subscribe(data => {
+      this.searchDate = data.category;
+    });
   }
 
 }

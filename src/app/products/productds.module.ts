@@ -9,6 +9,7 @@ import { ViewAllProductComponent } from './view-all-product/view-all-product.com
 import { UpdateProductComponent } from './update-product/update-product.component';
 import { DeleteProductComponent } from './delete-product/delete-product.component';
 import { ViewAllProductByDateComponent } from './view-all-product-by-date/view-all-product-by-date.component';
+import { ViewAllProductByCategoryComponent } from './view-all-product-by-category/view-all-product-by-category.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { ViewAllProductByDateComponent } from './view-all-product-by-date/view-a
     ViewAllProductComponent,
     UpdateProductComponent,
     DeleteProductComponent,
-    ViewAllProductByDateComponent
+    ViewAllProductByDateComponent,
+    ViewAllProductByCategoryComponent
   ],
   imports: [
     CommonModule,
