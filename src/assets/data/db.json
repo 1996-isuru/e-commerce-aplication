@@ -34,7 +34,7 @@
         "reviews": 100
       }
     ],
-    "category": [
+    "categories": [
       { "id": 1, "categoryName": "Polo Tshirt"},
       { "id": 2, "categoryName": "Soccure Tshirt"},
       { "id": 3, "categoryName": "Casual Tshirts"}

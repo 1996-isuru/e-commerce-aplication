@@ -9,14 +9,18 @@ import { ProductsService } from '../../products/products.service';
 })
 export class SidebarComponent implements OnInit {
 
+  // kk = ['yes', 'no'];
+  // categoryList = <any>[];
   categoryList: Category;
-
+  
   constructor(private productsService: ProductsService) { }
 
   ngOnInit(): void {
     this.productsService.getCategories().subscribe(data => {
       this.categoryList = data;
     });
+    // console.log(this.categoryList);
   }
+  
 
 }
