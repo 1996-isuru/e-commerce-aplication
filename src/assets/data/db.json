@@ -1,32 +1,43 @@
 {
-    "posts": [
+    "products": [
       { "id": 1,
-        "title": "Head phone",
-        "author": "typicode",
-        "price": "200",
+        "categoryId": 2,
+        "productName": "Head phone",
+        "description": "Product descriptiion goes hear",
         "rating": 4,
-        "vender's_name": "seller-1",
-        "warranty": "2",
-        "is_available": "true"
+        "price": "200",
+        "productImg": "http://localhost:4200/assets/1.jpg",
+        "isAvailable": true,
+        "color": "red",
+        "reviews": 10
       },
       { "id": 2,
-        "title": "pen",
-        "author": "typicode",
-        "price": "200",
-        "rating": 4,
-        "vender's_name": "seller-2",
-        "warranty": "2",
-        "is_available": "true"
+        "categoryId": 3,
+        "productName": "Mobile phone",
+        "description": "Product descriptiion goes hear",
+        "rating": 5,
+        "price": "20000",
+        "productImg": "http://localhost:4200/assets/2.jpg",
+        "isAvailable": true,
+        "color": "red",
+        "reviews": 70
       },
       { "id": 3,
-        "title": "book",
-        "author": "typicode",
-        "price": "200",
-        "rating": 4,
-        "vender's_name": "seller-1",
-        "warranty": "2",
-        "is_available": "true"
+        "categoryId": 2,
+        "productName": "Pen",
+        "description": "Product descriptiion goes hear",
+        "rating": 1,
+        "price": "4000",
+        "productImg": "http://localhost:4200/assets/3.jpg",
+        "isAvailable": true,
+        "color": "red",
+        "reviews": 100
       }
+    ],
+    "category": [
+      { "id": 1, "categoryName": "Polo Tshirt"},
+      { "id": 2, "categoryName": "Soccure Tshirt"},
+      { "id": 3, "categoryName": "Casual Tshirts"}
     ],
     "comments": [
       { "id": 1, "body": "some comment", "postId": 1 }
